@@ -1,6 +1,6 @@
-// import logo from './logo.svg';
 import './App.scss';
 // import team from './data/team';
+
 
 
 function App() {
