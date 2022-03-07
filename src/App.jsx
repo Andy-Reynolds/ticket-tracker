@@ -8,7 +8,7 @@ import team from './data/team';
 function App() {
   return (
     <div className="App">
-      {/* <EmployeeTile teamArr={team} /> */}
+      {/* <EmployeeTile /> */}
       <EmployeeInfo teamArr={team} />
     </div>
   );

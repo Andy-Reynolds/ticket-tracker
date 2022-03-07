@@ -5,17 +5,17 @@ const EmployeeInfo = ({teamArr}) => {
   const employeeInfoJSX = teamArr.map(({name,role}) => {
     return (
       <>
-        <p>Name: {name}</p>
-        <p>Role: {role}</p>
+        <div className="employee-info">
+          <p>Name: {name}</p>
+          <p>Role: {role}</p>
+        </div>
       </>
     )
   })
 
   return (
     <>
-      <div className="employee-info">
-        {employeeInfoJSX}
-      </div>
+      {employeeInfoJSX}
     </>
   )
 }

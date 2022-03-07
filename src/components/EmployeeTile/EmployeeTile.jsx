@@ -1,11 +1,8 @@
 import React from 'react'
-import "./EmployeeTile.scss"
 
 const EmployeeTile = () => {
   return (
-    <>
-      <div>EmployeeTile</div>
-    </>
+    <div>EmployeeTile</div>
   )
 }
 
