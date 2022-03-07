@@ -2,11 +2,11 @@ import React from 'react'
 import "./EmployeeInfo.scss"
 
 const EmployeeInfo = ({teamArr}) => {
-  const employeeInfoJSX = teamArr.map((employee) => {
+  const employeeInfoJSX = teamArr.map(({name,role}) => {
     return (
       <>
-        <p>Name: {employee.name}</p>
-        <p>Role: {employee.role}</p>
+        <p>Name: {name}</p>
+        <p>Role: {role}</p>
       </>
     )
   })
