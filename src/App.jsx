@@ -1,12 +1,15 @@
 import './App.scss';
-// import team from './data/team';
+import EmployeeInfo from './components/EmployeeInfo/EmployeeInfo';
+// import EmployeeTile from './components/EmployeeTile/EmployeeTile';
+import team from './data/team';
 
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Deployed Changes</h1>
+      {/* <EmployeeTile teamArr={team} /> */}
+      <EmployeeInfo teamArr={team} />
     </div>
   );
 }
