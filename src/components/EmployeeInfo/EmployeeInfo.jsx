@@ -8,6 +8,7 @@ const EmployeeInfo = ({teamArr}) => {
         <div className="employee-info">
           <p>Name: {name}</p>
           <p>Role: {role}</p>
+          <p>My counter will go here</p>
         </div>
       </>
     )
