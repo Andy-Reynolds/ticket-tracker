@@ -10,6 +10,10 @@
   flex-direction: column;
   justify-content: center;
 
+  &__heading {
+
+  }
+
   &__number {
     font-size: 50px;
   }
@@ -18,23 +22,22 @@
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
-    
-    &--decrement {
-      background-color: transparent;
-      border: 2px solid $color-highlight;
+
+    .buttons {
       min-width: 40px;
       min-height: 30px;
       border-radius: 20px;
       color: $color-white;
     }
     
+    &--decrement {
+      background-color: transparent;
+      border: 2px solid $color-highlight; 
+    }
+    
     &--increment {
       background-color: $color-highlight;
-      min-width: 40px;
-      min-height: 30px;
-      border-radius: 20px;
       border: none;
-      color: $color-white;
     }
 
   }
