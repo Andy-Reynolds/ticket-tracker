@@ -1,12 +1,42 @@
+@use "../../assets/sass/variables" as *;
+
 .ticket-counter {
   border: solid black 2px;
   width: 60%;
+  height: 50%;
   border-radius: 10px;
+  background-color: $color-secondary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__number {
+    font-size: 50px;
+  }
 
   &__buttons {
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    
+    &--decrement {
+      background-color: transparent;
+      border: 2px solid $color-highlight;
+      min-width: 40px;
+      min-height: 30px;
+      border-radius: 20px;
+      color: $color-white;
+    }
+    
+    &--increment {
+      background-color: $color-highlight;
+      min-width: 40px;
+      min-height: 30px;
+      border-radius: 20px;
+      border: none;
+      color: $color-white;
+    }
+
   }
 
 }

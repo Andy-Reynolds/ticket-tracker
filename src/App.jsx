@@ -8,7 +8,7 @@ import team from './data/team';
 function App() {
   return (
     <div className="App">
-      <h1>Ticket Tracker</h1>
+      <h1 className="header">Ticket Tracker</h1>
       <div className="all-tiles">
         <EmployeeInfo teamArr={team} />
       </div>
