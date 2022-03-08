@@ -1,4 +1,5 @@
 import React from 'react'
+import TicketCounter from '../TicketCounter/TicketCounter'
 import "./EmployeeInfo.scss"
 
 const EmployeeInfo = ({teamArr}) => {
@@ -6,9 +7,9 @@ const EmployeeInfo = ({teamArr}) => {
     return (
       <>
         <div className="employee-info">
-          <p>Name: {name}</p>
-          <p>Role: {role}</p>
-          <p>My counter will go here</p>
+          <p className="employee-name">Name: {name}</p>
+          <p className="employee-role">Role: {role}</p>
+          <TicketCounter />
         </div>
       </>
     )

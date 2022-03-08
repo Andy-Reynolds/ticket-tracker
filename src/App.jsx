@@ -8,8 +8,10 @@ import team from './data/team';
 function App() {
   return (
     <div className="App">
-      {/* <EmployeeTile /> */}
-      <EmployeeInfo teamArr={team} />
+      <h1>Ticket Tracker</h1>
+      <div className="employee-tiles">
+        <EmployeeInfo teamArr={team} />
+      </div>
     </div>
   );
 }

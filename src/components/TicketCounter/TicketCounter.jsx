@@ -16,9 +16,11 @@ const TicketCounter = () => {
 
   return (
     <div className="ticket-counter">
-      <button onClick={handleDecrement}>Decrement</button>
       <p>{counter}</p>
-      <button onClick={handleIncrement}>Increment</button>
+      <div className="buttons">
+        <button onClick={handleDecrement}>Decrement</button>
+        <button onClick={handleIncrement}>Increment</button>
+      </div>
     </div>
   );
 };
