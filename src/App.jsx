@@ -1,6 +1,5 @@
 import './App.scss';
-import EmployeeInfo from './components/EmployeeInfo/EmployeeInfo';
-// import EmployeeTile from './components/EmployeeTile/EmployeeTile';
+import EmployeeCards from './components/EmployeeCards/EmployeeCards';
 import team from './data/team';
 
 
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
       <h1 className="header">Ticket Tracker</h1>
       <div className="all-tiles">
-        <EmployeeInfo teamArr={team} />
+        <EmployeeCards teamArr={team} />
       </div>
     </div>
   );

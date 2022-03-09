@@ -1,9 +1,9 @@
 import React from 'react'
 import TicketCounter from '../TicketCounter/TicketCounter'
-import "./EmployeeInfo.scss"
+import "./EmployeeCards.scss"
 
-const EmployeeInfo = ({teamArr}) => {
-  const employeeInfoJSX = teamArr.map(({name,role}) => {
+const EmployeeCards = ({teamArr}) => {
+  const employeeCardsJSX = teamArr.map(({name,role}) => {
     return (
       <>
         <div className="employee-tile">
@@ -19,9 +19,9 @@ const EmployeeInfo = ({teamArr}) => {
 
   return (
     <>
-      {employeeInfoJSX}
+      {employeeCardsJSX}
     </>
   )
 }
 
-export default EmployeeInfo
+export default EmployeeCards
