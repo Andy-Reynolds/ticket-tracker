@@ -11,7 +11,7 @@ const EmployeeCards = ({teamArr}) => {
             <p className="employee-card__info--name"><span className="prefix">Name:</span> {name}</p>
             <p className="employee-card__info--role"><span className="prefix">Role:</span> {role}</p>
           </div>
-          <TicketCounter />
+          <TicketCounter key={id} />
         </div>
       </>
     )
