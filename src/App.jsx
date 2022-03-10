@@ -1,5 +1,4 @@
 import './App.scss';
-// import EmployeeCards from './components/EmployeeCards/EmployeeCards';
 import team from './data/team';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./containers/Home/Home";
