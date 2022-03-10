@@ -5,7 +5,6 @@ import "./EmployeeCards.scss"
 const EmployeeCards = ({teamArr}) => {
   const employeeCardsJSX = teamArr.map(({name,role,id}) => {
     return (
-      <>
         <div key={id} className="employee-card">
           <div className="employee-card__info">
             <p className="employee-card__info--name"><span className="prefix">Name:</span> {name}</p>
@@ -13,7 +12,6 @@ const EmployeeCards = ({teamArr}) => {
           </div>
           <TicketCounter key={id} />
         </div>
-      </>
     )
   })
 
