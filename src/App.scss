@@ -14,35 +14,3 @@
   color: $color-secondary;
   margin-bottom: 20px;
 }
-
-.all-tiles {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-
-  @media screen and (min-width: 530px) {
-    width: 60%;
-    margin-inline: auto;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-
-  @media screen and (min-width: 1080px) {
-    grid-template-columns: repeat(2, 1fr);
-    width: 60%;
-    margin-inline: auto;
-  }
-
-  @media screen and (min-width: 1366px) {
-    width: 100%;
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-
