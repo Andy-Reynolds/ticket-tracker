@@ -5,7 +5,7 @@ import "./Home.scss";
 const Home = ({teamArr}) => {
   return (
     <div className="all-tiles">
-      <EmployeeCards key={teamArr.id} teamArr={teamArr} />
+      <EmployeeCards teamArr={teamArr} />
     </div>
   )
 }
